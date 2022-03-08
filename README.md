@@ -149,9 +149,8 @@ As discussed in class, HTTP is a stateless protocol. A JAX-RS Web service thus p
 
 In developing a client-tracking mechanism, you should use HTTP cookies. The first time a client sends a request to the Web service, it won't have a cookie - in which case the service should generate one and return it in the HTTP response corresponding to the request. On all subsequent invocations, the HTTP request message should contain the cookie, thereby identifying the client that made the request. In a Web service that stores data for clients in a database, the cookie value could be used to retrieve data associated with the requesting client (more on the use of databases for persistence later).
 
-##### Github Classroom
-After you finish all exercises and push the code to the repository on Github, Please check if the execution of `Github classroom workflow` runs successfully without any test fails.
-
+##### Submission via Github Classroom
+The submission for this lab will follow the same final step as Week02Lab, which means you will be creating a **"submission"** branch and push your final code to that branch for submission. Note that as for Week02Lab this must be done once you are fully satisfied with your code and have successfully tested your code locally. Again, only 3 attempts for pushing to "submission" branch are allowed. Except for this, there are no other rules for how you manage your braching for this lab. After you finish all exercises and push the code to the repository on Github, please check if the execution of `Github classroom workflow` runs successfully without any test fails.
 
 #### Suggestions and resources
 In developing class `ConcertResource`, you should read the JAX-RS API Javadoc, in particular for:
@@ -169,18 +168,26 @@ Javadoc documentation for JAX-RS (which is part of Java Enterprise Edition) is a
 
 <h2>Assessment</h2>
 
-The marking of this lab will be based on your team repository as of Friday 26
-March 1700hrs.
+The marking of this lab will be based on your team repository as of **Friday 25
+March 1700hrs NZ time**. As well as the changes made to it for the above exercises, you
+must include a file <tt>Team.md</tt> containing the list of members in your
+team and a brief summary of what role each member played. If this file is not provided then there will be a **50% penalty**.
 
-Assessment will be performed by examining the commit logs and other
-information associated with your team repository.  You must demonstrate that
+**You must enter your initial team communication via GitHub Discussions before Thursday, 10 Feb 17:00hrs NZ time**. Some examples of this evidence could be: who does what, by when you plan to finish the exercises, constraints, planning notes, etc. Additionally, feel free to use GitHub Issues to report and discuss specific issues that you face while working on the exercises. If you end up using both Discussions and Issues, clearly state this in Team.md. If you fail to add any notes to Discussions before the Initial Team Communication deadline, **25% penalty** will be applied to the lab marks.
+
+**Note that your team (one of the team members to push on behalf of the team) must NOT push to the "submission" branch on remote (GitHub repo) more than 3 times**. Executing workflows incurs cost, and you must make sure you do not violate this rule while making your submissions. **Violating this rule will bring penalties too**. To be safe, never push to submission branch unless you have fully tested your final code. See details under development, building and testing code above.
+
+Overall, the assessment will be performed by examining the **code, commit logs, Team.md, comments recorded in GitHub Discussions and other
+information associated with your team repository**. You must demonstrate that
 you have engaged with the lab material and fully participated with the
 team. This means we expect to see non-trivial commits, with meaningful commit
-messages. This will mainly be for exercise 3, as the first 2 exercises do not
-require much work. Different team members will do different things and
-different times, but we will be looking for evidence that there was
-cooperation and collaboration. Examples including making useful commits, and
-commenting on actions by other team members.
+messages, corresponding to each exercise. Different team members will do
+different things and different times, but we will be looking for evidence that
+there was team cooperation and collaboration. Examples including making useful
+commits, communications via GitHub Discussions e.g. commenting on actions by other team members, resolving conflicts, etc. This will mainly be for exercise 3, as the first 2 exercises do not require much work. 
 
-Your team must be different to that of Lab02. Any team that has 2 or more members that were in the same team for Lab02 will receive zero marks for this lab.
+Note: Your team may be different to that of Week02Lab. See more details about this on the Canvas Assignments page.
 
+Good Luck!
+
+~COMPSCI331 Team
