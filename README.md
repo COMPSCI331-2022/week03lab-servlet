@@ -95,6 +95,8 @@ After editing the properties file, rebuild and run the project so that you can e
 
 Exercise Three - Develop a JAX-RS Concert service
 ----------
+This exercise will need some team effort both in understanding the exercise description, coming to consensus on what is being asaked to do, and then deciding about who does what. So, team-plan carefully!
+
 The project `lab-servlet-concert` is a partially complete JAX-RS project for a simple REST Web service that manages concerts. The project includes a skeleton Web service implementation (`ConcertResource`), an integration test (`ConcertResourceIT`), a class to represent concerts (`Concert`) and a complete POM. 
 
 The service is to provide the following REST interface:
@@ -121,11 +123,11 @@ The JAX-RS framework is extensible with respect to data formats (more on this in
 The `SerializedMessageBodyReaderAndWriter` is already registered on the client-side in class `ConcertResourceIT` (see the `createClient()` method). For the server-side, you'll need to handle registration in your `Application` subclass. To do this you should override `Application`'s `getClasses()` method to return a `Set` that contains the `SerializedMessageBodyReaderAndWriter` class.
 
 ```java
-private Set<Class<?>> classes = new HashSet<Class<?>>();
+private Set<Class<?>> _classes = new HashSet<Class<?>>();
 
 public ConcertApplication() {
   ...
-  classes.add(SerializationMessageBodyReaderAndWriter.class);
+  _classes.add(SerializationMessageBodyReaderAndWriter.class);
 }
 
 @Override
