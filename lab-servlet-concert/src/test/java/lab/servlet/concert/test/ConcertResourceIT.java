@@ -38,7 +38,9 @@ import lab.servlet.concert.services.SerializationMessageBodyReaderAndWriter;
 public class ConcertResourceIT {
 
     private static Logger LOGGER = LoggerFactory.getLogger(ConcertResourceIT.class);
-
+    
+    //The web service URI may require change for the tests to run locally (using JUnit). 
+    //Use appropriate port number and war_name in "http://localhost:port/war_name/services/concerts".
     private static String WEB_SERVICE_URI = "http://localhost:10000/services/concerts";
 
     private static Client client;
