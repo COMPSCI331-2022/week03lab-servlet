@@ -32,6 +32,7 @@ public class RabbitCounterConsumerIT {
     private static Logger _logger = LoggerFactory.getLogger(RabbitCounterConsumerIT.class);
 
     // Communication endpoint for the RabbitCounter Web service.
+    // For running the tests locally (using JUnit), use appropriate port and war_name before the application or service name.
     private static final String url = "http://localhost:10000/rabbit";
 
     @Test
