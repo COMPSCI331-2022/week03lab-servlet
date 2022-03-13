@@ -29,7 +29,9 @@ import org.slf4j.LoggerFactory;
 public class ParoleeResourceIT {
 
     private static Logger _logger = LoggerFactory.getLogger(ParoleeResourceIT.class);
-
+    
+    //The web service URI may require change for the tests to run locally (using JUnit). 
+    //Use appropriate port number and war_name in "http://localhost:port/war_name/services/parolees".
     private static String WEB_SERVICE_URI = "http://localhost:10000/services/parolees";
 
     private static Client client;
