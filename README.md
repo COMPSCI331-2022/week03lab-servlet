@@ -43,7 +43,7 @@ This runs the <tt>verify</tt> phase (and any phases before it, including compila
 If you want to use an IDE you will need to [import the maven project](EclipseImportMaven.md).
 After you configure the parent project as a maven project, you have to import the three child projects into the workspace. In order to do this, go to import->Maven->Existing maven project. Then, select **only pom files of child projects to import** as shown in the figure below. 
 
-![](eclipse-import.png)
+![](./spec/eclipse-import.png)
 
 #### (b) Add Integration Tests
 
