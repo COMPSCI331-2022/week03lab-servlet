@@ -173,7 +173,7 @@ Javadoc documentation for JAX-RS (which is part of Java Enterprise Edition) is a
 The marking of this lab will be based on your team repository as of **Friday 25
 March 1700hrs NZ time**. As well as the changes made to it for the above exercises, you
 must include a file <tt>Team.md</tt> containing the list of members in your
-team and a brief summary of what role each member played. If this file is not provided then there will be a **50% penalty**.
+team and a brief summary of what role each member played. Please also include, for each member, what their Github account name is. If this file is not provided then there will be a **50% penalty**.
 
 **You must enter your initial team communication via GitHub Discussions before Thursday, 17 March 17:00hrs NZ time**. Some examples of this evidence could be: who does what, by when you plan to finish the exercises, constraints, planning notes, etc. Additionally, feel free to use GitHub Issues to report and discuss specific issues that you face while working on the exercises. If you end up using both Discussions and Issues, clearly state this in Team.md. If you fail to add any notes to Discussions before the Initial Team Communication deadline, **25% penalty** will be applied to the lab marks.
 
